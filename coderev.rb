@@ -9,19 +9,18 @@ input = gets.chomp.to_i
     if   input == rand
         then 
 puts "Great job... You guessed the number."
-
     elsif this  > input
-    	then
-puts "Sorry,... just a bit low..  :( "
-
-    elsif  this  < input
-    	then
+    	then                                         #Bear in mind i did take a lunch 
+puts "Sorry,... Just a Bit low..  :( "               #in the middle of this when considering 
+    elsif  this  < input                         #my completion times...Lol  thanx y'all             
+        then
 puts "Sorry,... Just a bit high ..  ;(  "
    
    # else
 
 #puts "huhwhat!?!?"
 end
+
 
 
 puts this
